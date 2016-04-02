@@ -35,6 +35,13 @@ var stats = readingTime(text);
 //   words: 200
 // }
 ```
+#### Props
+var props = {
+  text : 'm read',
+  wpm : '300'
+};
+
+var stats = readingTime(text,props);
 
 ### Stream
 
